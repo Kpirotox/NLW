@@ -75,3 +75,9 @@ body, input, button, textarea {
     width: 90vw; /*só pega 90 dos 100 "pedacinhos" definidos*/
     max-width: 700px; /* tamanho maximo */
 }
+
+@media (min-width: 700px){/* quando a tela tiver no min 700px, o font-size fica esse */
+    :root {
+        font-size: 62.5%; /* todo 1rem vai ser relativo a 10px, 62.5% de 16 = 10 */
+    }
+}
